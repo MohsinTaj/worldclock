@@ -3,9 +3,18 @@
   padding: 0;
   text-align: center;
   margin-top: 20px;
-  background: linear-gradient(-45deg, #696768, #86808f, #000000, #2f514d, #20060f);
-  background-size: 400% 400%;
-  animation: gradientAnimation 1s infinite;
+
+  background: linear-gradient(
+    -45deg,
+    #dac9d1,
+    #564969,
+    #b17373,
+    #70d1c6,
+    #20060f
+  );
+  animation: gradientAnimation 1ms infinite;
+  background-size: 100% 100%;
+
   color: #fff;
   position: relative;
 }
